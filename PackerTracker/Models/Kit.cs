@@ -32,5 +32,9 @@ namespace PackerTracker.Models
         return _instances;
       }
         
+      public static Kit Find(int findId)
+      {
+        return _instances[findId -1];
+      }
     }
 }

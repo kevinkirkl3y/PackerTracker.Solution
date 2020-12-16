@@ -67,6 +67,91 @@
         }
       }
     },
+    "/Users/kevinkirkley/Desktop/PackerTracker.Solution/PackerTracker/Models/Kit.cs": {
+      "PackerTracker.Models.Kit": {
+        "System.String PackerTracker.Models.Kit::get_Name()": {
+          "Lines": {
+            "8": 6
+          },
+          "Branches": []
+        },
+        "System.Int32 PackerTracker.Models.Kit::get_Price()": {
+          "Lines": {
+            "9": 6
+          },
+          "Branches": []
+        },
+        "System.Int32 PackerTracker.Models.Kit::get_Weight()": {
+          "Lines": {
+            "10": 6
+          },
+          "Branches": []
+        },
+        "System.Boolean PackerTracker.Models.Kit::get_Purchased()": {
+          "Lines": {
+            "11": 6
+          },
+          "Branches": []
+        },
+        "System.Boolean PackerTracker.Models.Kit::get_Packed()": {
+          "Lines": {
+            "12": 6
+          },
+          "Branches": []
+        },
+        "System.Int32 PackerTracker.Models.Kit::get_Id()": {
+          "Lines": {
+            "13": 6
+          },
+          "Branches": []
+        },
+        "System.Void PackerTracker.Models.Kit::ClearAll()": {
+          "Lines": {
+            "26": 5,
+            "27": 5,
+            "28": 5
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.List`1<PackerTracker.Models.Kit> PackerTracker.Models.Kit::GetAll()": {
+          "Lines": {
+            "31": 2,
+            "32": 2,
+            "33": 2
+          },
+          "Branches": []
+        },
+        "PackerTracker.Models.Kit PackerTracker.Models.Kit::Find(System.Int32)": {
+          "Lines": {
+            "36": 0,
+            "37": 0,
+            "38": 0
+          },
+          "Branches": []
+        },
+        "System.Void PackerTracker.Models.Kit::.ctor(System.String,System.Int32,System.Int32,System.Boolean,System.Boolean)": {
+          "Lines": {
+            "15": 5,
+            "16": 5,
+            "17": 5,
+            "18": 5,
+            "19": 5,
+            "20": 5,
+            "21": 5,
+            "22": 5,
+            "23": 5,
+            "24": 5
+          },
+          "Branches": []
+        },
+        "System.Void PackerTracker.Models.Kit::.cctor()": {
+          "Lines": {
+            "14": 1
+          },
+          "Branches": []
+        }
+      }
+    },
     "/Users/kevinkirkley/Desktop/PackerTracker.Solution/PackerTracker/Controllers/HomeController.cs": {
       "PackerTracker.Controllers.HomeController": {
         "Microsoft.AspNetCore.Mvc.ActionResult PackerTracker.Controllers.HomeController::Index()": {

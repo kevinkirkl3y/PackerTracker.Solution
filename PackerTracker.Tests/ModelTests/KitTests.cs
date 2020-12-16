@@ -38,6 +38,13 @@ namespace PackerTracker.Tests
       int result = newKit.Id;
       Assert.AreEqual(1, result);
     }
+    [TestMethod]
+    public void GetAll_ReturnsEmptyList_KitList()
+    {
+      List<Kit> newList = new List<Kit> { };
+      List<Kit> result = Kit.GetAll();
+      CollectionAssert.AreEqual(newList, result);
+    }
 
     [TestMethod]
     public void GetAll_ReturnsAllItemsOfTheKit_KitList()
