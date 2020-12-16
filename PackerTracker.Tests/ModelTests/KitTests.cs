@@ -11,6 +11,10 @@ namespace PackerTracker.Tests
       Kit.ClearAll();
     }
     [TestMethod]
-    public void KitConstructor_
+    public void KitConstructor_CreatesInstanceOfKit_Kit()
+    {
+      Kit newKit = new Kit();
+      Assert.AreEqual(typeof(Kit), newKit.GetType());
+    }
   }
 }
