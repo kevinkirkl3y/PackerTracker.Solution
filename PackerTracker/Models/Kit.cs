@@ -26,7 +26,11 @@ namespace PackerTracker.Models
       {
         _instances.Clear();
       }
-
+      
+      public static List<Kit> GetAll()
+      {
+        return _instances;
+      }
         
     }
 }
