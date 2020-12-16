@@ -56,5 +56,6 @@ namespace PackerTracker.Tests
       List<Kit> result = Kit.GetAll();
       CollectionAssert.AreEqual(newList, result);
     }
+    
   }
 }

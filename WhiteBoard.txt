@@ -11,3 +11,10 @@ Homepage -  2 buttons (links) add item and show items
 2. Add item page - name, price, weight form and 2 check boxes: Purchased or Packed
 
 Program.cs(14,21): error CS0246: The type or namespace name 'Startup' could not be found (are you missing a using directive or an assembly reference?) [/Users/kevinkirkley/Desktop/PackerTracker.Solution/PackerTracker/PackerTracker.csproj]
+
+
+Create a class for packs. 
+
+based on weight, each pack can only carry so many Items.
+
+Calculate the total weight
