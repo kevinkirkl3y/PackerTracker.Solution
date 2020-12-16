@@ -1,0 +1,13 @@
+
+Name of the item (form)
+ price (form)
+weight (form)
+,purchased or not, (checkbox)
+ packed or not. (Checkbox)
+
+Homepage -  2 buttons (links) add item and show items
+
+1. Show item page - a. Shows list. b. Button to add new item. C. Button to delete all items D. Update Item (Mark as packed or purchased)
+2. Add item page - name, price, weight form and 2 check boxes: Purchased or Packed
+
+Program.cs(14,21): error CS0246: The type or namespace name 'Startup' could not be found (are you missing a using directive or an assembly reference?) [/Users/kevinkirkley/Desktop/PackerTracker.Solution/PackerTracker/PackerTracker.csproj]

@@ -1,15 +1,12 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using PackerTracker.Models;
+using System;
 
 namespace PackerTracker.Tests
 {
   [TestClass]
-  public class KitTests : IDisposable
+  public class KitTests
   {
-    public void Dispose()
-    {
-      Kit.ClearAll();
-    }
     [TestMethod]
     public void KitConstructor_CreatesInstanceOfKit_Kit()
     {

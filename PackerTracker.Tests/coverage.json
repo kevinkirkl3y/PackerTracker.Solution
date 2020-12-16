@@ -1,0 +1,83 @@
+{
+  "PackerTracker.Views.dll": {},
+  "PackerTracker.dll": {
+    "/Users/kevinkirkley/Desktop/PackerTracker.Solution/PackerTracker/Program.cs": {
+      "PackerTracker.Program": {
+        "System.Void PackerTracker.Program::Main(System.String[])": {
+          "Lines": {
+            "9": 0,
+            "10": 0,
+            "11": 0,
+            "12": 0,
+            "13": 0,
+            "14": 0,
+            "15": 0,
+            "17": 0,
+            "18": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "/Users/kevinkirkley/Desktop/PackerTracker.Solution/PackerTracker/Startup.cs": {
+      "PackerTracker.Startup": {
+        "Microsoft.Extensions.Configuration.IConfigurationRoot PackerTracker.Startup::get_Configuration()": {
+          "Lines": {
+            "19": 0
+          },
+          "Branches": []
+        },
+        "System.Void PackerTracker.Startup::ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)": {
+          "Lines": {
+            "22": 0,
+            "23": 0,
+            "24": 0
+          },
+          "Branches": []
+        },
+        "System.Void PackerTracker.Startup::Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder)": {
+          "Lines": {
+            "27": 0,
+            "28": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "42": 0
+          },
+          "Branches": []
+        },
+        "System.Void PackerTracker.Startup::.ctor(Microsoft.AspNetCore.Hosting.IHostingEnvironment)": {
+          "Lines": {
+            "11": 0,
+            "12": 0,
+            "13": 0,
+            "14": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "/Users/kevinkirkley/Desktop/PackerTracker.Solution/PackerTracker/Controllers/HomeController.cs": {
+      "PackerTracker.Controllers.HomeController": {
+        "Microsoft.AspNetCore.Mvc.ActionResult PackerTracker.Controllers.HomeController::Index()": {
+          "Lines": {
+            "9": 0,
+            "10": 0,
+            "11": 0
+          },
+          "Branches": []
+        }
+      }
+    }
+  }
+}
