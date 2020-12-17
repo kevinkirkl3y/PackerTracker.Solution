@@ -17,4 +17,34 @@ Create a class for packs.
 
 based on weight, each pack can only carry so many Items.
 
-Calculate the total weight
+Calculate the total weight of all Items contained in pack. 
+
+
+namespace PackerTracker.Models
+{
+  public class Bag
+  {
+    public static List<Bag> _instances = new List<Bag> {};
+    public List<Kit> Kits {get; set;}
+    public int WeightCapacity { get; set; }
+
+    public Bag(int weight)
+    {
+      WeightCapacity = weight;
+      Kits = new List<Kit> {};
+      
+       if (WeightCapacity < 50)
+      {
+        return "This pack is perfect for a beginning backpacker.";
+      }
+      else if (WeightCapacity < 80)
+      {
+        return "You should be fairly experienced to carry this pack.";
+      }
+      else
+      {
+        return "You're a glutton for punishment, I hope you're a Marine carrying that kind of weight!";
+      }
+    }
+
+

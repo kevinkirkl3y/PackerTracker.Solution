@@ -1,20 +1,24 @@
-<form id="form" action="/kits" method="post">
-  <label for="name">Name the piece of your kit:</label>
-  <input id="name" name="name" type="text">
-  <br>
-  <label for="price">What is the price of this piece of your kit:</label>
-  <input id="price" name="price" type="number">
-  <br>
-  <label for="weight">What is the weight of this piece of your kit:</label>
-  <input id="weight" name="weight" type="number">
-  <br>
-  <label for="purchased">Did you buy it?</label>
-  <input type="checkbox" name="purchased" id="purchased" value="true">
-  <br>
-  <label for="packed">Did you pack it?</label>
-  <input type="checkbox" name="packed" id="packed" value="true">
-  <br>
-  <input type="submit" value="Submit"/>
-</form>
+<div class="container card">
+  <form id="form" action="/kits" method="post">
+    <input id="name" name="name" type="text">
+    <label for="name">Name the piece of your kit:</label>
+    <br>
+    <input id="price" name="price" type="number">
+    <label for="price">What is the price of this piece of your kit:</label>
+    <br>
+    <input id="weight" name="weight" type="number">
+    <label for="weight">What is the weight of this piece of your kit:</label>
+    <br>
+    <input type="checkbox" name="purchased" id="purchased" value="true">
+    <label for="purchased">Did you buy it?</label>
+    <br>
+    <input type="checkbox" name="packed" id="packed" value="true">
+    <label for="packed">Did you pack it?</label>
+    <br>
+    <input type="submit" value="Submit"/>
+  </form>
+  <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css'>
+</div>
+
 
   

@@ -10,6 +10,7 @@ namespace PackerTracker.Controllers
     public ActionResult Index()
     {
       List<Kit> allKits = Kit.GetAll();
+      
       return View(allKits);
     }
     [HttpGet("/kits/new")]
@@ -21,6 +22,7 @@ namespace PackerTracker.Controllers
     public ActionResult Create(string name, int price, int weight, bool purchased, bool packed)
     {
       Kit myKit = new Kit(name, price, weight, purchased, packed);
+
       return RedirectToAction("Index");
     }
 
